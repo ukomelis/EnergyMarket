@@ -1,0 +1,122 @@
+# .NET / C# spetsiifilised failid
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.vs/
+*.vscode/
+*.swp
+*.tmp
+*.log
+*.ldb
+*.bak
+*.ncb
+*.ilk
+*.pdb
+*.aps
+*.sdf
+*.opendb
+*.VC.db
+*.rsuser
+
+# Rider ja JetBrains'i failid
+*.idea/
+**/*.idea/
+**/.idea/
+.idea/
+*.sln.iml
+
+# Paketihalduse failid
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+project.lock.json
+project.assets.json
+global.json
+**/node_modules/
+
+# Buildi ja CI/CD artefaktid
+**/artifacts/
+**/obj/
+**/bin/
+**/coverage/
+**/TestResults/
+**/test-results/
+
+# Docker ja konteineritega seotud failid
+**/docker-compose.override.yml
+**/docker-compose.override.yaml
+**/docker-compose.dev.yml
+**/docker-compose.dev.yaml
+**/docker-compose.local.yml
+**/docker-compose.local.yaml
+**/.dockerignore
+**/Dockerfile*
+
+# Kubernetes, Helm ja IaC
+**/k8s/*.temp
+**/k8s/*.bak
+**/k8s/secrets.yaml
+**/k8s/secrets.yml
+**/helm/Chart.lock
+**/helm/values.override.yaml
+**/helm/values.override.yml
+**/terraform/.terraform/
+**/terraform/terraform.tfstate*
+**/terraform/*.tfstate.backup
+
+# RabbitMQ ja lokaalne andmebaasi mahuti
+**/rabbitmq-data/
+**/rabbitmq/log/
+**/rabbitmq/mnesia/
+**/volumes/
+**/data/
+**/logs/
+
+# Azure, GitHub Actions ja muud CI/CD tööriistad
+.azure-pipelines/
+.github/workflows/*.bak
+.github/workflows/*.tmp
+.gitlab-ci.yml.lock
+
+# Turvafailid ja tundlikud andmed 
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json.lock
+.env
+*.env.local
+*.env.development
+*.env.production
+*.key
+*.pem
+*.crt
+*.pfx
+*.cert
+*.jks
+
+# Lokaalsed spetsiifilised failid (Windows, macOS, Linux)
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Logifailid
+logs/
+**/*.log
+**/*.log.*
+**/log/
+
+# IDE ja tööriistade spetsiifilised failid
+*.code-workspace
+*.sln.DotSettings
+*.resharper
+*.resharper.user
+*.dotCover
+*.dotSettings

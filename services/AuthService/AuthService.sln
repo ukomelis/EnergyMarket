@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "AuthService\AuthService.csproj", "{E7E054F9-9D75-40DB-AA5E-CB218F7F6359}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{349798F2-FC66-4256-A7B7-C188C978C961}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7E054F9-9D75-40DB-AA5E-CB218F7F6359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E054F9-9D75-40DB-AA5E-CB218F7F6359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E054F9-9D75-40DB-AA5E-CB218F7F6359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E054F9-9D75-40DB-AA5E-CB218F7F6359}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+﻿services:
+  datasyncservice:
+    image: datasyncservice
+    build:
+      context: .
+      dockerfile: DataSyncService/Dockerfile
